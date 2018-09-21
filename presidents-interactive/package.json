@@ -1,9 +1,10 @@
 {
-  "name": "idromenos-complete",
+  "name": "presidents-interactive",
   "version": "1.0.0",
   "description": "G&A test",
   "keywords": [],
   "main": "src/index.js",
+  "homepage" : "",
   "dependencies": {
     "react": "16.3.2",
     "react-dom": "16.3.2",
