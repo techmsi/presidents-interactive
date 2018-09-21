@@ -1,0 +1,67 @@
+@keyframes spin {
+  from {
+    transform: rotateY(0);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.wrap {
+  perspective: 800px;
+  perspective-origin: 50% 100px;
+}
+.cube {
+  position: relative;
+  width: 200px;
+  transform-style: preserve-3d;
+  animation: spin 5s infinite linear;
+}
+
+.cube div {
+  position: absolute;
+  top: 3rem;
+  width: 200px;
+  height: 200px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.cube-text {
+  padding-top: 0.5rem;
+  position: absolute;
+  bottom: -6rem;
+  font-size: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #111;
+  color: #fff;
+  height: 7rem;
+  font-family: "Cinzel", serif;
+}
+
+.cube-text span {
+  background: cadetblue;
+  color: #111;
+}
+
+.back {
+  transform: translateZ(-100px) rotateY(180deg);
+}
+.right {
+  transform: rotateY(-270deg) translateX(100px);
+  transform-origin: top right;
+}
+.left {
+  transform: rotateY(270deg) translateX(-100px);
+  transform-origin: center left;
+}
+.top {
+  transform: rotateX(-90deg) translateY(-100px);
+  transform-origin: top center;
+}
+.bottom {
+  transform: rotateX(90deg) translateY(100px);
+  transform-origin: bottom center;
+}
+.front {
+  transform: translateZ(100px);
+}

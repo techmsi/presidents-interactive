@@ -1,0 +1,44 @@
+{
+  "Presidents":[
+    {
+      "name":"George Washington",
+      "portrait":"images/washington.jpg",
+      "terms":[ 1788, 1792 ],
+      "party":"Unaffiliated",
+      "vice_president":["John Adams"],
+      "biography":"An American soldier, farmer, land investor, politician, and statesman who served from 1789 to 1797 as the first President of the United States, and became known as the \"Father of His Country\". He was commander-in-chief of the Continental Army during the American Revolutionary War and presided over the 1787 Constitutional Convention. As a leading Patriot, he was among the nation's Founding Fathers."
+    },
+    {
+      "name": "John Quincy Adams",
+      "portrait": "images/adams.jpg",
+      "terms": [ 1796 ],
+      "party": "Federalist",
+      "vice_president":["Thomas Jefferson"],
+      "biography":"An American statesman and Founding Father who served as the first Vice President (1789–1797) and second President of the United States (1797–1801). He was a lawyer, diplomat, political theorist, and a leader of the movement for American independence from Great Britain. He was also a dedicated diarist and correspondent, particularly with his wife and closest advisor, Abigail."
+    },
+    {
+      "name": "Thomas Jefferson",
+      "portrait": "images/jefferson.jpg",
+      "terms": [ 1800, 1804 ],
+      "party": "Democratic-Republican",
+      "vice_president":["Aaron Burr","George Clinton"],
+      "biography":" An American Founding Father who was the principal author of the Declaration of Independence and later served as the third president of the United States from 1801 to 1809. Previously, he had been elected the second vice president of the United States, serving under John Adams from 1797 to 1801. He was a proponent of democracy, republicanism, and individual rights motivating American colonists to break from Great Britain and form a new nation; he produced formative documents and decisions at both the state and national level."
+    },
+    {
+      "name": "James Madison",
+      "portrait": "images/madison.jpg",
+      "terms": [ 1808, 1812 ],
+      "party": "Democratic-Republican",
+      "vice_president":["George Clinton", "Elbridge Gerry"],
+      "biography":"An American statesman and Founding Father who served as the fourth President of the United States from 1809 to 1817. He is hailed as the \"Father of the Constitution\" for his pivotal role in drafting and promoting the United States Constitution and the Bill of Rights."
+    },
+    {
+      "name": "James Monroe",
+      "portrait": "images/monroe.gif",
+      "terms": [ 1816, 1820 ],
+      "party": "Democratic-Republican",
+      "vice_president":["Daniel D. Tompkins"],
+      "biography":"An American statesman and Founding Father who served as the fifth President of the United States from 1817 to 1825. Monroe was the last president of the Virginia dynasty, and his presidency ushered in what is known as the Era of Good Feelings. Born in Westmoreland County, Virginia, Monroe was of the planter class and fought in the American Revolutionary War. He was wounded in the Battle of Trenton with a musket ball to the shoulder. After studying law under Thomas Jefferson from 1780 to 1783, he served as a delegate in the Continental Congress."
+    }
+  ]
+}
